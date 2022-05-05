@@ -6,7 +6,7 @@ The purpose of the project is to create an application which will be able to ret
 
 ## Features
 
-- Retrieve a live stream on ongoing tweets
+- Retrieve a live stream of ongoing tweets
 - Retrieve tweets based on keywords
 - Retrieve tweets based on user
 
