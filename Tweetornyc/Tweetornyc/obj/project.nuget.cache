@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MWQVs4jSjW07sQ70qBHy9qQGiKJG71X4ErpIBjB6KPX1gSykyYoF+lhvAtSI6mOLec1x+NcWbvXvTm5LA5w2yA==",
+  "dgSpecHash": "bT6dtMXpUjT7xRLHE6cKRXawU8jXwhGa88UlsZg9bz2hy4oMs6D2N1NWvTIGkD7aYrAXgA+iP4zz+T0nImdkeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+  "projectFilePath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\john\\.nuget\\packages\\autofac\\4.9.4\\autofac.4.9.4.nupkg.sha512",
     "C:\\Users\\john\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",

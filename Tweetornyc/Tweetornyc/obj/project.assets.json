@@ -3045,20 +3045,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Voiskar\\.nuget\\packages\\": {}
+    "C:\\Users\\john\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Voiskar\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "projectUniqueName": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
       "projectName": "Tweetornyc",
-      "projectPath": "C:\\Users\\Voiskar\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
-      "packagesPath": "C:\\Users\\Voiskar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Voiskar\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
+      "projectPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Voiskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -3103,7 +3108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
