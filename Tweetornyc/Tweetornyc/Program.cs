@@ -28,8 +28,18 @@ namespace Tweetornyc
 
                         await sampleStreamV2.StartAsync();*/
 
+
+
+            Console.WriteLine("Enter Key Word:");
+            string KeyWord = Console.ReadLine();
             var stream = userClient.Streams.CreateFilteredStream();
-            stream.AddTrack("UK");
+            
+
+            
+
+
+
+            stream.AddTrack(KeyWord);
 
             List<string> tweets = new List<string>();
 
