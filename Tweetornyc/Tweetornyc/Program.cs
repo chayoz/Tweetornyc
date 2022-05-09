@@ -28,13 +28,34 @@ namespace Tweetornyc
 
                         await sampleStreamV2.StartAsync();*/
 
-            var stream = userClient.Streams.CreateTweetStream();
-            stream.EventReceived += (sender, eventReceived) =>
-            {
-                Console.WriteLine(eventReceived.Json);
-            };
-            await stream.StartAsync("https://stream.twitter.com/1.1/statuses/sample.json");
+            var stream = userClient.Streams.CreateFilteredStream();
+            stream.AddTrack("UK");
 
+            List<string> tweets = new List<string>();
+
+            int i = 0;
+            stream.MatchingTweetReceived += (sender, eventReceived) =>
+            {
+                //Console.WriteLine(eventReceived.Tweet);
+                tweets.Add(eventReceived.Tweet.ToString());
+                if(i == 20)
+                {
+                    stream.Stop();
+                    Console.WriteLine("Complete!");
+                }
+
+                ++i;
+            };
+
+            await stream.StartMatchingAnyConditionAsync();
+
+
+            foreach(var t in tweets)
+            {
+                Console.WriteLine("Tweet: "+t);
+            }
+
+            Console.WriteLine("Total tweets: " + tweets.Count);
             /*var tweets = await userClient.Search.SearchTweetsAsync("2022");
             List<string> output = new List<string>();
             foreach (var x in tweets)
