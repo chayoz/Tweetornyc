@@ -20,24 +20,16 @@ namespace Tweetornyc
             var userCredentials = new TwitterCredentials("yjqoED31on4ZQL6VXtLI7BpX6", "fPRgFnxVqLV6znax3IvjjIVdfAodB5guGyM73AWd3KTxP4ZJ3Y", "1507042722775023617-w2CcbIZSLwcOHUNtupk1YX0NhpDUcQ", "FKXrSCIka2Cs7jsqRHSJLoLFLAUHwgOJTJvMdpbFQhp4I");
             var userClient = new TwitterClient(userCredentials);
 
-            /*            var sampleStreamV2 = appClient.StreamsV2.CreateSampleStream();
-                        sampleStreamV2.TweetReceived += (sender, args) =>
-                        {
-                            System.Console.WriteLine(args.Tweet.Text);
-                        };
+            await Getstream(userClient);
 
-                        await sampleStreamV2.StartAsync();*/
+            await Gettweet(userClient);
+        }
 
-
-
+        static async Task Getstream(TwitterClient userClient)
+        {
             Console.WriteLine("Enter Key Word:");
             string KeyWord = Console.ReadLine();
             var stream = userClient.Streams.CreateFilteredStream();
-            
-
-            
-
-
 
             stream.AddTrack(KeyWord);
 
@@ -48,7 +40,7 @@ namespace Tweetornyc
             {
                 //Console.WriteLine(eventReceived.Tweet);
                 tweets.Add(eventReceived.Tweet.ToString());
-                if(i == 20)
+                if (i == 20)
                 {
                     stream.Stop();
                     Console.WriteLine("Complete!");
@@ -60,21 +52,21 @@ namespace Tweetornyc
             await stream.StartMatchingAnyConditionAsync();
 
 
-            foreach(var t in tweets)
+            foreach (var t in tweets)
             {
-                Console.WriteLine("Tweet: "+t);
+                Console.WriteLine("Tweet: " + t);
             }
 
             Console.WriteLine("Total tweets: " + tweets.Count);
-            /*var tweets = await userClient.Search.SearchTweetsAsync("2022");
-            List<string> output = new List<string>();
+        }
+
+        static async Task Gettweet(TwitterClient userClient)
+        {
+            var tweets = await userClient.Search.SearchTweetsAsync("2022");
             foreach (var x in tweets)
             {
-                Console.WriteLine(x);
-            }*/
-
-
-            /* parto ksana*/
+                Console.WriteLine("Tweet: "+x);
+            }
         }
     }
 }
