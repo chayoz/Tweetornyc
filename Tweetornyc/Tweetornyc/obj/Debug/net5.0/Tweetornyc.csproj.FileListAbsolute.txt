@@ -24,3 +24,30 @@ D:\uni\open source software dev\project\Tweetornyc\Tweetornyc\obj\Debug\net5.0\T
 D:\uni\open source software dev\project\Tweetornyc\Tweetornyc\obj\Debug\net5.0\ref\Tweetornyc.dll
 D:\uni\open source software dev\project\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.pdb
 D:\uni\open source software dev\project\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.genruntimeconfig.cache
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetornyc.exe
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetornyc.deps.json
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetornyc.runtimeconfig.json
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetornyc.runtimeconfig.dev.json
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetornyc.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetornyc.pdb
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Autofac.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.Controllers.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.Core.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.Credentials.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.Logic.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.Security.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.Streams.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.WebLogic.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\bin\Debug\net5.0\Tweetinvi.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.csproj.AssemblyReference.cache
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.AssemblyInfoInputs.cache
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.AssemblyInfo.cs
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.csproj.CoreCompileInputs.cache
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.csproj.CopyComplete
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\refint\Tweetornyc.dll
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.pdb
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\Tweetornyc.genruntimeconfig.cache
+C:\Users\Voiskar\Source\Repos\Tweetornyc\Tweetornyc\Tweetornyc\obj\Debug\net5.0\ref\Tweetornyc.dll
