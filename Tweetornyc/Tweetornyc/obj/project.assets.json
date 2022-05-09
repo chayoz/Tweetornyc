@@ -3045,19 +3045,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Voiskar\\.nuget\\packages\\": {}
+    "C:\\Users\\manos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Voiskar\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "projectUniqueName": "D:\\uni\\open source software dev\\project\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
       "projectName": "Tweetornyc",
-      "projectPath": "C:\\Users\\Voiskar\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
-      "packagesPath": "C:\\Users\\Voiskar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Voiskar\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
+      "projectPath": "D:\\uni\\open source software dev\\project\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "packagesPath": "C:\\Users\\manos\\.nuget\\packages\\",
+      "outputPath": "D:\\uni\\open source software dev\\project\\Tweetornyc\\Tweetornyc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Voiskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\manos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3103,7 +3103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
