@@ -64,7 +64,7 @@ namespace Tweetornyc
             }*/
 
 
-            /* parto */
+            /* parto ksana*/
         }
     }
 }
