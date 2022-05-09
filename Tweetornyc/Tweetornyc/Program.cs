@@ -1,26 +1,46 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using Tweetinvi;
+using Tweetinvi.Models;
 
 namespace Tweetornyc
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            var appCredentials = new ConsumerOnlyCredentials("yjqoED31on4ZQL6VXtLI7BpX6", "fPRgFnxVqLV6znax3IvjjIVdfAodB5guGyM73AWd3KTxP4ZJ3Y")
+            {
+                BearerToken = "AAAAAAAAAAAAAAAAAAAAALfAagEAAAAArq15M%2FS9GBjFELBHHRxAXbdfJEE%3DK7kABEuy5wrIeYhRYgVw9JBbOSosOPnGbofehszSjuW9aKyqPk"
+            };
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+            var appClient = new TwitterClient(appCredentials);
+
+            var userCredentials = new TwitterCredentials("yjqoED31on4ZQL6VXtLI7BpX6", "fPRgFnxVqLV6znax3IvjjIVdfAodB5guGyM73AWd3KTxP4ZJ3Y", "1507042722775023617-w2CcbIZSLwcOHUNtupk1YX0NhpDUcQ", "FKXrSCIka2Cs7jsqRHSJLoLFLAUHwgOJTJvMdpbFQhp4I");
+            var userClient = new TwitterClient(userCredentials);
+
+            /*            var sampleStreamV2 = appClient.StreamsV2.CreateSampleStream();
+                        sampleStreamV2.TweetReceived += (sender, args) =>
+                        {
+                            System.Console.WriteLine(args.Tweet.Text);
+                        };
+
+                        await sampleStreamV2.StartAsync();*/
+
+            var stream = userClient.Streams.CreateTweetStream();
+            stream.EventReceived += (sender, eventReceived) =>
+            {
+                Console.WriteLine(eventReceived.Json);
+            };
+            await stream.StartAsync("https://stream.twitter.com/1.1/statuses/sample.json");
+
+            /*var tweets = await userClient.Search.SearchTweetsAsync("2022");
+            List<string> output = new List<string>();
+            foreach (var x in tweets)
+            {
+                Console.WriteLine(x);
+            }*/
+        }
     }
 }
