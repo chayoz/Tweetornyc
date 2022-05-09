@@ -64,7 +64,7 @@ namespace Tweetornyc
             }*/
 
 
-            /* asdasdasdfafdsafa geaisfdjodsa jfs tha to fereis?? */
+            /* parto */
         }
     }
 }
