@@ -26,9 +26,13 @@ The purpose of the project is to create an application which will be able to ret
 
 ## Installation
 
-To be written
+The project is made in .NET 5.0
 
 ```bash
-  To be written
+  cd <your folder destination>
+  git clone https://github.com/chayoz/Tweetornyc.git
 ```
+
+Install the Tweetinvi package through:
+Tools > NuGet Package Manager > Manage NuGet Packages for Solution > browse for TweetinviAPI and install
     
