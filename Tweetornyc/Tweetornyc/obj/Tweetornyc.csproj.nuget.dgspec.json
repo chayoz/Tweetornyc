@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab4-1\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {}
+    "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab4-1\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {
+    "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab4-1\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+        "projectUniqueName": "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
         "projectName": "Tweetornyc",
-        "projectPath": "C:\\Users\\lab4-1\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
-        "packagesPath": "C:\\Users\\lab4-1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab4-1\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
+        "projectPath": "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+        "packagesPath": "C:\\Users\\eneida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lab4-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eneida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -66,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
