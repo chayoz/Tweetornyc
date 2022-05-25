@@ -29,11 +29,19 @@ namespace Tweetornyc
 
 
 
-            await Getstream(userClient);
+            Console.WriteLine("Welcome, choose an option: \n1)Get a stream of tweets. \n2)Get a tweet");
+            int option = Int32.Parse(Console.ReadLine());
 
 
 
-            await Gettweet(userClient);
+            if (option == 1)
+            {
+                await Getstream(userClient);
+            }
+            else if (option == 2)
+            {
+                await Gettweet(userClient);
+            }
         }
 
 

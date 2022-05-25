@@ -3045,25 +3045,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\john\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\eneida\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "projectUniqueName": "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
       "projectName": "Tweetornyc",
-      "projectPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
-      "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
+      "projectPath": "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "packagesPath": "C:\\Users\\eneida\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eneida\\Desktop\\Year3\\Open Source Software Development\\Assessment002\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\eneida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -3108,7 +3108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
