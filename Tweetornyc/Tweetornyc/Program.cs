@@ -100,7 +100,9 @@ namespace Tweetornyc
 
         static async Task Gettweet(TwitterClient userClient)
         {
-            var tweets = await userClient.Search.SearchTweetsAsync("2022");
+            Console.WriteLine("Enter a keyword to search for the tweet: ");
+            string KeyWord = Console.ReadLine();
+            var tweets = await userClient.Search.SearchTweetsAsync(KeyWord);
             foreach (var x in tweets)
             {
                 Console.WriteLine("Tweet: " + x);
