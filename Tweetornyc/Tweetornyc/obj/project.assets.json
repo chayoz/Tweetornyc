@@ -3051,11 +3051,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "projectUniqueName": "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
       "projectName": "Tweetornyc",
-      "projectPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+      "projectPath": "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
       "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
+      "outputPath": "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -3111,5 +3111,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

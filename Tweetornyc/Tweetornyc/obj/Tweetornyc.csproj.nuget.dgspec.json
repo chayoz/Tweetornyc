@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {}
+    "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {
+    "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+        "projectUniqueName": "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
         "projectName": "Tweetornyc",
-        "projectPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
+        "projectPath": "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\Tweetornyc.csproj",
         "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\john\\source\\repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
+        "outputPath": "C:\\Users\\john\\Source\\Repos\\Tweetornyc\\Tweetornyc\\Tweetornyc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
