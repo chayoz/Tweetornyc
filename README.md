@@ -7,9 +7,8 @@ The purpose of the project is to create an application which will be able to ret
 ## Features
 
 - Retrieve a live stream of ongoing tweets
+- Provides a counter of tweets found based on inserted keywords
 - Retrieve tweets based on keywords
-- Retrieve tweets based on user
-
 
 ## Authors
 
@@ -18,21 +17,15 @@ The purpose of the project is to create an application which will be able to ret
 - [@VaiosKaraoulis](https://github.com/ikomninos)
 - [@IoannisKomninos](https://github.com/Voiskar)
 
-
-## Documentation
-
-[Documentation]()
-
-
 ## Installation
 
-The project is made in .NET 5.0
+The project is made in Visual Studio, .NET 5.0 is required.
 
 ```bash
   cd <your folder destination>
   git clone https://github.com/chayoz/Tweetornyc.git
 ```
 
-Install the Tweetinvi package through:
+Once you open and run the solution, install the Tweetinvi package through:
 Tools > NuGet Package Manager > Manage NuGet Packages for Solution > browse for TweetinviAPI and install
     
